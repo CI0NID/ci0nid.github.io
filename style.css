@@ -1,1 +1,9 @@
 
+body {
+  background-color: pink;
+  background-image: url("/png/BG2.png");
+  color: white;
+  font-family: Arial;
+  margin: auto;
+  text-shadow: 0 2px black
+}
