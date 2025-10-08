@@ -3,6 +3,7 @@ body {
   background-color: black;
   color: white;
   font-family: serif;
+  font-weight: 700;
   margin: center;
   text-shadow: 0 2px black
 }
