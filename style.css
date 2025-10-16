@@ -5,7 +5,8 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
   margin: 0;
-  text-shadow: 0 2px black
+  text-shadow: 0 2px black;
+  
 }
 
 a:link {color: black;}
@@ -13,6 +14,12 @@ a:link {color: black;}
 .title {
   font-size: 50;
   font-style: italic;
+  text-align: center;
+  font-weight: 900;
+}
+
+.mainTitle {
+  font-size: 60;
   text-align: center;
   font-weight: 900;
 }
@@ -57,6 +64,13 @@ a:link {color: black;}
   width: auto;
   height: 45px;
   color: black;
+}
+
+.hr{
+  background-color: aliceblue;
+  height: 0.5%;
+  width: 95%;
+  margin: 3%;
 }
 
 /*
