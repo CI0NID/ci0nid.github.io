@@ -25,17 +25,49 @@ a:visited {color: aliceblue;}
   font-weight: 900;
 }
 
-.mainTitle {
-  font-size: 60;
+.mainTitle-container {
+  display: block;
+  height: auto; /* меняем на auto */
+  min-height: 100px; /* минимальная высота вместо фиксированной */
+  overflow: hidden; /* скрываем выходящие за пределы элементы */
+  position: relative;
   text-align: center;
-  font-weight: 900;
+  padding: 20px 0; /* добавляем отступы вместо фиксированной высоты */
+  z-index: -1;
 }
 
-.mainTitle2 {
-  font-size: 60;
+.mainTitle {
+  font-size: 80px;
   text-align: center;
   font-weight: 900;
-  transform:skew(5deg) rotate(180deg)
+  color: aliceblue;
+  text-shadow: 
+    0 0 10px rgba(240, 248, 255, 0.8),
+    0 0 20px rgba(240, 248, 255, 0.6),
+    0 0 30px rgba(240, 248, 255, 0.4);
+  animation: waterPulse 2s ease-in-out infinite;
+  transform-origin: center;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  position: relative; /* меняем на relative */
+  z-index: 1; /* устанавливаем нормальный z-index */
+}
+
+@keyframes waterPulse {
+  0%, 100% {
+    transform: scale(1) translateY(0);
+    text-shadow: 
+      0 0 30px rgba(240, 248, 255, 0.4);
+    filter: hue-rotate(0deg) blur(0px);
+  }
+  50% {
+    transform: scale(1.03) translateY(-2px);
+    text-shadow: 
+      0 0 45px rgba(240, 248, 255, 0.6);
+    filter: hue-rotate(5deg) blur(0.3px);
+  }
 }
 
 .regularText {
@@ -58,6 +90,7 @@ a:visited {color: aliceblue;}
   padding-bottom: 0.5%;
   color: black;
   a:visited {color: black;}
+  z-index: 3;
 }
 
 #left{
