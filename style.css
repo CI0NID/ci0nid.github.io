@@ -27,12 +27,12 @@ a:visited {color: aliceblue;}
 
 .mainTitle-container {
   display: block;
-  height: auto; /* меняем на auto */
-  min-height: 100px; /* минимальная высота вместо фиксированной */
-  overflow: hidden; /* скрываем выходящие за пределы элементы */
+  height: auto; 
+  min-height: 100px; 
+  overflow: hidden; 
   position: relative;
   text-align: center;
-  padding: 20px 0; /* добавляем отступы вместо фиксированной высоты */
+  padding: 20px 0; 
   z-index: -1;
 }
 
@@ -51,8 +51,8 @@ a:visited {color: aliceblue;}
   margin: 0;
   padding: 0;
   line-height: 1;
-  position: relative; /* меняем на relative */
-  z-index: 1; /* устанавливаем нормальный z-index */
+  position: relative; 
+  z-index: 1; 
 }
 
 @keyframes waterPulse {
