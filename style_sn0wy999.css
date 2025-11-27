@@ -1,7 +1,7 @@
 
 body {
-  background-color: #141414;
-  color: aliceblue;
+  background-color: #da3b71;
+  color: #7e0d49;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
   margin: 0;
@@ -9,11 +9,11 @@ body {
   
 }
 
-a:link {color: aliceblue;}
-a:visited {color: aliceblue;}
+a:link {color: #7e0d49;}
+a:visited {color: #7e0d49;}
 
 .smallTextAtTheEndOfPage{
-  color: #3f3f3f;
+  color: #960c55;
   font-size: small;
   text-align: center;
 }
@@ -40,11 +40,11 @@ a:visited {color: aliceblue;}
   font-size: 80px;
   text-align: center;
   font-weight: 900;
-  color: aliceblue;
+  color: #7e0d49;
   text-shadow: 
-    0 0 10px rgba(240, 248, 255, 0.8),
-    0 0 20px rgba(240, 248, 255, 0.6),
-    0 0 30px rgba(240, 248, 255, 0.4);
+    0 0 10px #c73169,
+    0 0 20px #ae255d,
+    0 0 30px #901650;
   animation: waterPulse 2s ease-in-out infinite;
   transform-origin: center;
   display: inline-block;
@@ -59,13 +59,13 @@ a:visited {color: aliceblue;}
   0%, 100% {
     transform: scale(1) translateY(0);
     text-shadow: 
-      0 0 30px rgba(240, 248, 255, 0.4);
+      0 0 30px #ae255d;
     filter: hue-rotate(0deg) blur(0px);
   }
   50% {
     transform: scale(1.03) translateY(-2px);
     text-shadow: 
-      0 0 45px rgba(240, 248, 255, 0.6);
+      0 0 45px #901650;
     filter: hue-rotate(5deg) blur(0.3px);
   }
 }
@@ -79,20 +79,20 @@ a:visited {color: aliceblue;}
 .unRegularText {
   font-size: 20;
   font-weight:bold;
-  a:visited {color: black;}
-  a:link {color: black;}
+  a:visited {color: #da3b71;}
+  a:link {color: #da3b71;}
 }
 
 .topnav {
   position: fixed;
-  background-color: aliceblue;
+  background-color: #7e0d49;
   top: auto;
   width: 100%;
   height:fit-content;
   padding-bottom: 0.5%;
-  color: black;
-  a:visited {color: black;}
-  a:link {color: black;}
+  color: #da3b71;
+  a:visited {color: #da3b71;}
+  a:link {color: #da3b71;}
   z-index: 3;
 }
 
@@ -115,21 +115,21 @@ a:visited {color: aliceblue;}
 
 #space{
      text-decoration: none;
-     color: #141414;
+     color: #da3b71;
 }
 
 #decor2{
      text-decoration: underline;
-     color: #3f3f3f;
+     color: #da3b71;
      font-size: small
 }
 
 #sn0wy_text_999{
-  color: #fb607f;
+  color: #7e0d49;
 }
 
 .nothing{
-  color: #141414;
+  color: #da3b71;
   text-align: center;
 }
 
@@ -147,20 +147,20 @@ a:visited {color: aliceblue;}
   opacity: 0;
   overflow: hidden;
   position: relative;
-  background-color: aliceblue;
+  background-color: #7e0d49;
   min-width: 160px;
   z-index: 1;
   transform: scaleY(0);
   transform-origin: top;
   transition: all 0.3s ease;
-  color: black;
+  color: #da3b71;
   margin-top: 10px;
   max-width: 95%;
   font-size: medium;
   font-weight: 1000;
   text-align: left;
-  a:visited {color: black}
-  a:link {color: black;}
+  a:visited {color: #da3b71}
+  a:link {color: #da3b71;}
 }
 
 .hint:hover .hint-content {
@@ -176,19 +176,20 @@ a:visited {color: aliceblue;}
 
 .hint-content p {
   margin: 8px 0;
-  color: black;
+  color: #da3b71;
 } 
 
 .hr {
-  background-color: aliceblue;
+  background-color: #7e0d49;
+  color: #7e0d49;
   height: 2px;
   width: 95%;
   margin: 20px auto;
-  box-shadow: 0px 0px 2px 1px rgba(240, 248, 255, 0.33);
+  box-shadow: 0px 0px 2px 1px #ae255d;
 } 
 
 .shadow{
-  box-shadow: 0px 0px 20px 10px rgba(240, 248, 255, 0.33);
+  box-shadow: 0px 0px 20px 10px #ae255d;
 }
 
 .blocks {
@@ -202,7 +203,7 @@ a:visited {color: aliceblue;}
 .block {
     text-align: center;
     width: 200px;
-    color: aliceblue;
+    color: #7e0d49;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -217,7 +218,7 @@ a:visited {color: aliceblue;}
 
 .block_desc2 {
   margin-top: 5px;
-  color: #3f3f3f;
+  color: #960c55;
   font-size: 15px;
   text-align: center;
   text-decoration:none;
